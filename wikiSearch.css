@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'fira Code';
+}
+
+.banner{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-size: cover;
+
+}
+.static{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    color: rgb(25, 25, 25);
+    padding-top: 20px;
+    
+}
+.input{
+    width: 60%;
+    border-radius: 8px;
+    border-style: none;
+    padding:6px;
+    font-size: 20px;
+}
+.dynamic{
+    margin-left: 20px;
+}
+.itemsContainer{
+    align-self: center;
+    width: 90%;
+    padding: 10px;
+    text-align: flex-start;
+
+}
+.title{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.link-item{
+    text-decoration: none;
+    color: green;
+    margin-left: 10px;
+}
+.description{
+    font-size:16px;
+    color: rgb(25, 25, 25);
+    margin-left:10px;
+    
+}
+.spinner-border{
+    margin-top: 30px;
+}
